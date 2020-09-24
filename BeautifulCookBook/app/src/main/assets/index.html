@@ -1,0 +1,137 @@
+<link href="./bootstrap/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="./fade.css" rel="stylesheet">
+<link href="./noselect.css" rel="stylesheet">
+<link rel="stylesheet" href="./ss/swiper-bundle.min.css">
+<script src="./bootstrap/assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./jquery-3.5.1.slim.min.js"></script>
+<script src="./bootstrap/assets/dist/js/bootstrap.bundle.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="./ss/Sortable.js"></script>
+
+
+
+<body>
+
+    <div class="container">
+        <br>
+        <h1>Cookbook</h1>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card  mb-3">
+                    <img class="card-img-top" src="./img/card1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 1</h5>
+
+                        <p class="card-text">Cook together, stay together.</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-sm-6">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <div class="card  mb-3" style="min-height: 200px;">
+                                <img class="card-img-top" src="./img/card2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Day 2</h5>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <div class="card  mb-3" style="min-height: 200px;">
+                                <img class="card-img-top" src="./img/card3.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Day 3</h5>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <div class="card  mb-3" style="min-height: 200px;">
+                                <img class="card-img-top" src="./img/card4.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Day 4</h5>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+
+                            <div class="card  mb-3" style="min-height: 200px;">
+                                <img class="card-img-top" src="./img/card5.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Day 5</h5>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card  mb-3">
+                    <img class="card-img-top" src="./img/card6.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 6</h5>
+
+                        <p class="card-text">Cook together, stay together.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card  mb-3">
+                    <img class="card-img-top" src="./img/card7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 7</h5>
+
+                        <p class="card-text">Cook together, stay together.</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Swiper JS -->
+    <script src="./ss/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+</body>
